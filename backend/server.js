@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const PORT = 3001; // Elige un puerto diferente al de tu frontend (e.g., 3001)
+const PORT = process.env.PORT || 3001; // Elige un puerto diferente al de tu frontend (e.g., 3001)
 
 // Middleware para habilitar CORS (permite peticiones desde diferentes dominios/puertos)
 app.use(cors());
