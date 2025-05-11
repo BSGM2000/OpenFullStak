@@ -1,0 +1,18 @@
+.notification {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .notification.success {
+    background-color: #e6ffe6; /* Verde claro */
+    color: #008000; /* Verde oscuro */
+    border-color: #008000;
+  }
+  
+  .notification.error {
+    background-color: #ffe6e6; /* Rojo claro */
+    color: #ff0000; /* Rojo oscuro */
+    border-color: #ff0000;
+  }
